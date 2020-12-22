@@ -1,0 +1,165 @@
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Cabin', sans-serif;
+    color: #2c2e30;
+}
+
+nav h2 {
+    margin: -10px;
+    padding: -10px;
+}
+
+.cabezal {
+    text-align: center; 
+}
+
+.cabezal h1 {
+    margin-top: 10px;
+}
+
+.ricomida {
+    font-family: 'Lobster', cursive;
+    font-size: 37px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h2, .newsletter .ricomida {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.newsletter {
+    background-color: var(--danger);
+    color: #ffffff;
+}
+
+.newsletter h1 {
+    font-size: 30px;
+}
+
+.newsletter h2 {
+    display: inline;
+}
+
+.contacto {
+    padding: 95.5px 0 20px 0;        
+}
+
+.img-principal {
+    width: 100%;    
+}
+
+.recetas-anteriores img {
+    width: 316px;
+}
+
+hr {
+    background-color: #000;
+}
+
+.img-carrusel {
+    /*width: 100%;*/
+    max-width: 233px;
+}
+
+.carousel-indicators {
+    top: 215px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #2c2e30;
+}
+
+.btn {
+    border-color: #dddddd;
+    font-size: 13px;
+}
+
+.boton-newslettter {
+    padding: 8px 80px;
+}
+
+footer {
+    height: 125px;
+}
+
+footer h2 {
+    padding-top: 41px;
+}
+
+
+
+
+
+    /* Madia Queries*/
+
+@media (min-width: 768px) {
+    .cabezal {
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    h2 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    
+    h3 {
+        font-size: 23px;
+        font-weight: 700;
+    }
+    
+    h4 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .hero-section {
+        margin-top: 80px;
+    }
+
+    .contacto {
+        padding: 95.5px 0 20px 0;        
+    }
+
+    .newsletter .ricomida {
+        font-size: 37px;
+    }
+
+    .contacto {
+        margin: 10px auto 80px auto;
+    }
+
+}
